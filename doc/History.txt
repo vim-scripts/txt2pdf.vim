@@ -1,0 +1,28 @@
+04/25/2002 1.0	 First public release
+05/01/2002 1.1	 Introduction of Txt2pdf function
+05/05/2002 1.2	 You can set your txt2pdf path
+05/10/2002 2.0	 You can set in vimrc file the global variabiles txt2pdf_path
+		 and txt2pdfcfg_path. We've modified \r\n standard Windows EOL
+		 into \n standard unix EOL
+05/15/2002 2.1	 Global variable txt2pdf_key and txt2pdf.txt documentation
+05/20/2002 2.2	 Now you can use also :Txtx2pdf
+05/28/2002 2.3	 With :Txt2pdf you can introduce the options for txt2pdf e.g. 
+		 :Txt2pdf -configure /your_path/your_txt2pdf.cfg
+06/05/2002 2.4	 You can enter a txt2pdf configuration file path via input
+		 dialog using g:txt2pdfconf_key (the default is <F3>)
+06/19/2002 2.5	 New documentation.
+		 The zip distribution has now doc and plugin directories.
+07/10/2002 2.6	 Added load_txt2pdf to test if the module has been already
+		 loaded.
+12/13/2002 2.7	 Added txt2pdf.vim in the syntax directory to have a vim syntax
+		 when you edit txt2pdf.cfg
+		 History.txt
+01/10/2003 2.8	 Now syntax/txt2pdf.vim supports txt2pdf PRO and txt2pdf 6.3
+01/25/2003 2.9	 Now syntax/txt2pdf.vim supports txt2pdf PRO 6.0
+02/24/2003 2.9.5 Now syntax/txt2pdf.vim supports txt2pdf 6.4
+04/25/2003 2.10	 Now syntax/txt2pdf.vim supports txt2pdf PRO 6.5 and txt2pdf 6.5
+06/19/2003 2.11	 Now syntax/txt2pdf.vim supports txt2pdf 6.6
+10/24/2003 2.12	 Now syntax/txt2pdf.vim supports txt2pdf PRO 7.0 and txt2pdf 7.0
+03/15/2004 2.13	 Now syntax/txt2pdf.vim supports txt2pdf txt2pdf 7.2
+04/25/2004 2.14	 Now syntax/txt2pdf.vim supports txt2pdf PRO 7.3 and txt2pdf 7.3
+12/20/2004 2.15	 Now syntax/txt2pdf.vim supports txt2pdf PRO 7.5 and txt2pdf 7.6

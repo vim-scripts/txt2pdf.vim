@@ -1,0 +1,92 @@
+*txt2pdf.txt*	txt2pdf plugin V2.12 10/24/2003
+		For Vim version 6.x
+
+							*txt2pdf-plugin*
+
+txt2pdf.vim is a plugin that allow from VIM to save and convert the current
+file to PDF using txt2pdf.
+You need to istall txt2pdf http://www.sanface.com/txt2pdf.html
+
+==============================================================================
+CONTENTS						*txt2pdf-contents*
+
+|txt2pdf-installation|	Installing the plugin.
+|txt2pdf-commands|	plugin commands.
+|txt2pdf-keys|		plugin keys
+|txt2pdf-options|	Options to control the plugin
+|txt2pdf-support|	Support for the plugin.
+
+==============================================================================
+INSTALLATION						*txt2pdf-installation*
+
+The plugin file should be placed in a sub-directory called plugin that exists
+in a directory early in your 'runtimepath', for example ~/.vim/plugin.
+
+This help file should be placed in a directory named doc that exists at the
+same level as your plugin directory, for example ~/.vim/doc.  Next run
+'helptags' on this doc directory so that you can access this file with the
+'help' command.
+
+The simplest approach is to expand the ZIP file containing these two files
+into your runtimepath directory preserving the pathnames, and then run
+'helptags'.
+
+Remember to set the Global variables in your vimrc file.
+for Unix and OS/2:	~/.vimrc
+for Amiga:		s:.vimrc
+for MS-DOS and Win32:	$VIM\_vimrc
+for OpenVMS:		sys$login:.vimrc
+
+==============================================================================
+COMMANDS						*txt2pdf-commands*
+
+							*:Txt2pdf*
+:Txt2pdf
+    Using this command you can pass linear parameters to txt2pdf
+    e.g. :Txt2pdf -configure /your_path/your_txt2pdf.cfg
+
+==============================================================================
+KEYS						*txt2pdf-keys*
+
+The following keys are mapped like default
+	<F2>:	Save the current file being edited and pass it to txt2pdf to
+	  	convert it into PDF.
+		You can change the key using the global variable txt2pdf_key
+	<F3>:	Input dialog to enter the txt2pdf configuration file path.
+		You can change the key using the global variable txt2pdfconf_key
+
+==============================================================================
+OPTIONS 						*txt2pdf-options*
+
+Set the following global variables in your startup file to fine tune the
+behaviour of the plugin:
+
+							*txt2pdf_path*
+g:txt2pdf_path
+    the path of txt2pdf executable
+
+							*txt2pdfcfg_path*
+g:txt2pdfcfg_path
+    the path of your configuration file (usually txt2pdf.cfg)
+
+							*txt2pdf_key*
+g:txt2pdf_key
+    the key to start the :Txt2pdf command (deafult <F2>)
+
+							*txt2pdfconf_key*
+g:txt2pdfconf_key
+    the key to start an input dialog to enter the txt2pdf configuration file
+    path (deafult <F3>)
+    
+==============================================================================
+SUPPORT							*txt2pdf-support*
+
+This plugin and txt2pdf are developed by SANFACE Software
+	http://www.sanface.com/
+
+Please send any bug-reports or suggestions for improvement to >
+	sanface@sanface.com
+For good contribution we'll give you a free txt2pdf license :)
+
+vim:tw=78:ts=8:ft=help
+

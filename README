@@ -1,0 +1,11 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=283
+
+Script to save the current file and convert it to PDF using txt2pdf. You need to install txt2pdf http://www.sanface.com/txt2pdf.html
+
+You can also use txt2pdf PRO http://www.sanface.com/txt2pdfPRO.html and txt2pdf PRO + crypt http://www.sanface.com/txt2pdfPROcrypt.html to
+make more complex PDFs like
+http://www.sanface.com/pdf/Purchase_Order.pdf
+http://www.sanface.com/pdf/invoice.pdf
+http://www.sanface.com/pdf/hfmus.pdf
+http://www.sanface.com/pdf/heraldbill.pdf
+
